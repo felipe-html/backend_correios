@@ -1,0 +1,76 @@
+<h1 class="mt-4">Gestores</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Cadastro de gestores</li>
+</ol>
+
+<div class="container">
+    <form #gestoresForm="ngForm" (ngSubmit)="onSubmit()">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-success" role="alert" *ngIf="success == true">
+                    Gestor cadastrado com sucesso
+                  </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="alert alert-danger" role="alert" *ngFor="let erro of errors">
+                    {{erro}}
+                  </div>
+            </div>
+        </div>
+        <div class="row" *ngIf="gestores.id">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>ID : </label>
+                    <input type="text" [ngModel]="gestores.id" name="id" class="form-control" disabled="true"/>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Data Cadastro : </label>
+                    <input type="text" [ngModel]="gestores.dataCadastro" name="dataCadastro" class="form-control" disabled="true"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Nome : </label>
+                    <input type="text" class="form-control" [(ngModel)]="gestores.nome" name="nome"/>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>CPF : </label>
+                    <input type="text" [(ngModel)]="gestores.cpf" name="cpf" class="form-control"/>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Área :  </label>
+                    <input type="text"[(ngModel)]="gestores.area" name="area" class="form-control"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+               <button type="submit" class="btn btn-success">
+                <i class="fa fa-save"></i>Cadastrar
+               </button>
+            </div>
+
+            <div class="mb-3">
+                <input class="form-control form-control-sm" id="formFileSm" type="file" accept=".csv">
+              </div>
+        </div>
+
+    </form>
+</div>
