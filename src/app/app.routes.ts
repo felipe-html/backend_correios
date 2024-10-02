@@ -4,6 +4,7 @@ import { GestoresFormComponent } from './gestores/gestores-form/gestores-form.co
 import { ListagemComponent } from './gestores/listagem/listagem.component';
 import { GestoresInfoComponent } from './gestores/gestores-info/gestores-info.component';
 import { UploadDataComponent } from './gestores/upload-data/upload-data.component';
+import { EntradasComponent } from './patrimonio/entradas/entradas.component';
 
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -11,6 +12,7 @@ export const routes: Routes = [
     {path:'app-listagem', component: ListagemComponent},
     {path:'app-upload-data', component: UploadDataComponent},
     {path:'app-gestores-info/:id', component: GestoresInfoComponent},
+    {path:'app-entradas', component: EntradasComponent},
 
 
 ];
