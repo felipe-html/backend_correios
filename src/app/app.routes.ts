@@ -8,6 +8,7 @@ import { NovaEntradaComponent } from './patrimonio/entradas/nova-entrada/nova-en
 import { EntradaCompraComponent } from './patrimonio/entradas/entrada-compra/entrada-compra.component';
 import { OutrasEntradaComponent } from './patrimonio/entradas/outras-entrada/outras-entrada.component';
 import { ListaEntradasComponent } from './patrimonio/entradas/lista-entradas/lista-entradas.component';
+import { HistoricoPatrimonioComponent } from './patrimonio/entradas/historico-patrimonio/historico-patrimonio.component';
 
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -19,6 +20,7 @@ export const routes: Routes = [
     {path:'app-entrada-compra', component:EntradaCompraComponent},
     {path:'app-outras-entrada', component:OutrasEntradaComponent},
     {path:'app-lista-entradas', component:ListaEntradasComponent},
+    {path:'app-historico-patrimonio', component: HistoricoPatrimonioComponent}
 
 
 ];

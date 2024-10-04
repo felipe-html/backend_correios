@@ -1,8 +1,10 @@
-body {background-color:#163a63; color:#163a63; padding-top:15px;}
+body {padding-top:15px;}
 
-.list-group {box-shadow: 0px 11px 23px 5px rgba(0,0,0,0.34);}
+.list-group {box-shadow: 0px 11px 23px 5px rgba(0,0,0,0.34);
+  margin-bottom: 15px;}
 
-.list-group-item {background-color: rgba(255,255,255,0.7); border:0;}
+.list-group-item {background-color: rgba(255,255,255,0.7); border:0;
+  margin-bottom: 15px;}
 
 .btn-toolbar {margin-top:10px;}
 
@@ -13,26 +15,39 @@ img {
   width: 128px;
 }
 
+.advanced{
+
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
 
 
+.btn-secondary,
+.btn-secondary:focus,
+.btn-secondary:active
 
 
+{
+  color: #fff;
+  background-color: #00838f !important;
+  border-color: #00838f !important;
+  box-shadow: none;
+}
 
 
+.advanced{
+
+  color: #00838f !important;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  border: 1px solid #00838f;
 
 
+}
 
-
-
-
-
-
-
-
-
-
-
-/* ==== SOME BOOTSTRAP MODS/STYLING ==== */
 .btn-default {background-color: rgba(255,255,255,0.3); border-color:rgba(0,0,0,0.2);}
 .img-rounded, .btn, .label {border-radius: 6px;}
 .btn {padding: 6px 18px;}
@@ -44,75 +59,6 @@ img {
 body { /* GRADIENT BG */ background: -moz-linear-gradient(45deg, rgba(0,145,0,1) 0%, rgba(0,86,199,1) 100%); /* ff3.6+ */ background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,145,0,1)), color-stop(100%, rgba(0,86,199,1))); /* safari4+,chrome */ background: -webkit-linear-gradient(45deg, rgba(0,145,0,1) 0%, rgba(0,86,199,1) 100%); /* safari5.1+,chrome10+ */ background: -o-linear-gradient(45deg, rgba(0,145,0,1) 0%, rgba(0,86,199,1) 100%); /* opera 11.10+ */ background: -ms-linear-gradient(45deg, rgba(0,145,0,1) 0%, rgba(0,86,199,1) 100%); /* ie10+ */ background: linear-gradient(45deg, rgba(0,145,0,1) 0%, rgba(0,86,199,1) 100%); /* w3c */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0056C7', endColorstr='#009100',GradientType=1 ); /* ie6-9 */}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==== FONTS ==== */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 h1,h2,h3,h4,h5,h6 {font-family: 'Montserrat', sans-serif; text-transform:uppercase; font-weight:700;}
 html, body {font-family: 'Open Sans', sans-serif; -webkit-font-smoothing: antialiased !important;}
 .active a {color:#c7ddef;}
