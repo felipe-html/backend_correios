@@ -9,6 +9,9 @@ import { EntradaCompraComponent } from './patrimonio/entradas/entrada-compra/ent
 import { OutrasEntradaComponent } from './patrimonio/entradas/outras-entrada/outras-entrada.component';
 import { ListaEntradasComponent } from './patrimonio/entradas/lista-entradas/lista-entradas.component';
 import { HistoricoPatrimonioComponent } from './patrimonio/entradas/historico-patrimonio/historico-patrimonio.component';
+import { ListaTransferenciaComponent } from './patrimonio/transferencia/lista-transferencia/lista-transferencia.component';
+import { TransferenciaExternaComponent } from './patrimonio/transferencia/transferencia-externa/transferencia-externa.component';
+import { TransferenciaInternaComponent } from './patrimonio/transferencia/transferencia-interna/transferencia-interna.component';
 
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -20,7 +23,10 @@ export const routes: Routes = [
     {path:'app-entrada-compra', component:EntradaCompraComponent},
     {path:'app-outras-entrada', component:OutrasEntradaComponent},
     {path:'app-lista-entradas', component:ListaEntradasComponent},
-    {path:'app-historico-patrimonio', component: HistoricoPatrimonioComponent}
+    {path:'app-lista-transferencia', component: ListaTransferenciaComponent},
+    {path:'app-transferencia-externa', component: TransferenciaExternaComponent},
+    {path:'app-transferencia-interna', component: TransferenciaInternaComponent}
+
 
 
 ];
