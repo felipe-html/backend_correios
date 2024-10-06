@@ -1,49 +1,55 @@
 {
-  "hash": "58acc63b",
-  "configHash": "5ff4c37e",
-  "lockfileHash": "d5f2d98c",
-  "browserHash": "c8955fd5",
+  "hash": "1e0fd644",
+  "configHash": "328fabea",
+  "lockfileHash": "3920828f",
+  "browserHash": "a70e23ea",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "1b383bfb",
+      "fileHash": "d1174d88",
       "needsInterop": false
     },
     "@angular/common/http": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "81054c16",
+      "fileHash": "58ce64ab",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "4a6c83dd",
+      "fileHash": "a44faecb",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "791ecff2",
+      "fileHash": "955ed29c",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "bc5cb93a",
+      "fileHash": "05904ff0",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "cfb835c0",
+      "fileHash": "febd6541",
+      "needsInterop": false
+    },
+    "@canvasjs/angular-charts": {
+      "src": "../../../../../node_modules/@canvasjs/angular-charts/fesm2015/canvasjs-angular-charts.js",
+      "file": "@canvasjs_angular-charts.js",
+      "fileHash": "eed9c544",
       "needsInterop": false
     },
     "jquery": {
       "src": "../../../../../node_modules/jquery/dist/jquery.js",
       "file": "jquery.js",
-      "fileHash": "e907daf1",
+      "fileHash": "3339518a",
       "needsInterop": true
     }
   },

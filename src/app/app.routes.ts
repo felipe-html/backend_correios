@@ -12,6 +12,7 @@ import { HistoricoPatrimonioComponent } from './patrimonio/entradas/historico-pa
 import { ListaTransferenciaComponent } from './patrimonio/transferencia/lista-transferencia/lista-transferencia.component';
 import { TransferenciaExternaComponent } from './patrimonio/transferencia/transferencia-externa/transferencia-externa.component';
 import { TransferenciaInternaComponent } from './patrimonio/transferencia/transferencia-interna/transferencia-interna.component';
+import { LinhaComponent } from './home/graficos/linha/linha.component';
 
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -20,6 +21,7 @@ export const routes: Routes = [
     {path:'app-upload-data', component: UploadDataComponent},
     {path:'app-gestores-info/:id', component: GestoresInfoComponent},
     {path:'app-nova-entrada', component: NovaEntradaComponent},
+    {path:'app-linha', component: LinhaComponent},
     {path:'app-entrada-compra', component:EntradaCompraComponent},
     {path:'app-outras-entrada', component:OutrasEntradaComponent},
     {path:'app-lista-entradas', component:ListaEntradasComponent},
