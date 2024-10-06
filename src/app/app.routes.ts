@@ -13,6 +13,7 @@ import { ListaTransferenciaComponent } from './patrimonio/transferencia/lista-tr
 import { TransferenciaExternaComponent } from './patrimonio/transferencia/transferencia-externa/transferencia-externa.component';
 import { TransferenciaInternaComponent } from './patrimonio/transferencia/transferencia-interna/transferencia-interna.component';
 import { LinhaComponent } from './home/graficos/linha/linha.component';
+import { GraficosComponent } from './relatorios/graficos/graficos.component';
 
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -25,9 +26,11 @@ export const routes: Routes = [
     {path:'app-entrada-compra', component:EntradaCompraComponent},
     {path:'app-outras-entrada', component:OutrasEntradaComponent},
     {path:'app-lista-entradas', component:ListaEntradasComponent},
+    {path:'app-historico-patrimonio', component:HistoricoPatrimonioComponent},
     {path:'app-lista-transferencia', component: ListaTransferenciaComponent},
     {path:'app-transferencia-externa', component: TransferenciaExternaComponent},
-    {path:'app-transferencia-interna', component: TransferenciaInternaComponent}
+    {path:'app-transferencia-interna', component: TransferenciaInternaComponent},
+    {path:'app-graficos', component:GraficosComponent},
 
 
 

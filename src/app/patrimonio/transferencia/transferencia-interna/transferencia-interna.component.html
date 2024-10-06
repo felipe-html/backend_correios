@@ -1,1 +1,45 @@
-<p>transferencia-interna works!</p>
+<h1 class="mt-4">Transferencia interna</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Essa pagina é feita para controlar as transferencias interna ao orgão</li>
+</ol>
+
+
+<form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Objeto</label>
+      <input type="text" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Número Patrimonio</label>
+      <input type="text" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputAddress" class="form-label">Data de Transferencia</label>
+      <input type="date" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-md-6">
+      <label for="inputAddress2" class="form-label">Local de Transferencia</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Gestor Responsavel</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Status Patrimonio</label><br>
+      <select id="inputState" class="form-select">
+        <option selected>Selecione</option>
+        <option>Novo</option>
+        <option>Usado</option>
+        <option>Manutenção</option>
+        <option>Baixa/descarte</option>
+      </select>
+    </div>
+    <div class="col-md-4">
+        <label for="formFile" class="form-label">Anexo de Documentos</label><br>
+        <input class="form-control" type="file" id="formFile">
+      </div><br><br><br><br><br>    
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Salvar</button>
+    </div>
+  </form>

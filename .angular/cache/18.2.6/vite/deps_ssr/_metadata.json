@@ -1,61 +1,61 @@
 {
-  "hash": "53a6ea56",
-  "configHash": "9212a4b5",
+  "hash": "d5ca27ed",
+  "configHash": "f01af424",
   "lockfileHash": "3920828f",
-  "browserHash": "458b3919",
+  "browserHash": "31dac86a",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "d7dc2501",
+      "fileHash": "a1ce5cd1",
       "needsInterop": false
     },
     "@angular/common/http": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "9075679a",
+      "fileHash": "34c3066a",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "e3063342",
+      "fileHash": "8926b65e",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "725f5cb5",
+      "fileHash": "738c7bd6",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "c29eecf6",
+      "fileHash": "3dcd5827",
       "needsInterop": false
     },
     "@angular/platform-server": {
       "src": "../../../../../node_modules/@angular/platform-server/fesm2022/platform-server.mjs",
       "file": "@angular_platform-server.js",
-      "fileHash": "f0b03428",
+      "fileHash": "06fe03e3",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "ddbb4bf5",
+      "fileHash": "0734ede8",
       "needsInterop": false
     },
     "@canvasjs/angular-charts": {
       "src": "../../../../../node_modules/@canvasjs/angular-charts/fesm2015/canvasjs-angular-charts.js",
       "file": "@canvasjs_angular-charts.js",
-      "fileHash": "29878b7f",
+      "fileHash": "03917dfa",
       "needsInterop": false
     },
     "jquery": {
       "src": "../../../../../node_modules/jquery/dist/jquery.js",
       "file": "jquery.js",
-      "fileHash": "6c53cf65",
+      "fileHash": "2b3814a6",
       "needsInterop": true
     }
   },
