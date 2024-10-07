@@ -19,15 +19,15 @@ export class GraficoUmComponent {
     data: [{        
       type: "column",
       dataPoints: [
-        { x: 10, y: 71 },
-        { x: 20, y: 55 },
-        { x: 30, y: 50 },
-        { x: 40, y: 65 },
-        { x: 50, y: 95 },
-        { x: 60, y: 68 },
-        { x: 70, y: 28 },
-        { x: 80, y: 34 },
-        { x: 90, y: 14 }
+        {label:"janeiro", x: 10, y: 71 },
+        {label:"Fevereiro", x: 20, y: 55 },
+        {label:"Março", x: 30, y: 50 },
+        {label:"Abril", x: 40, y: 65 },
+        {label:"Maio", x: 50, y: 95 },
+        {label:"Junho", x: 60, y: 68 },
+        {label:"Julho", x: 70, y: 28 },
+        {label:"Agosto", x: 80, y: 34 },
+        {label:"Setembro", x: 90, y: 14 }
       ]
     }]
   }	
