@@ -1,3 +1,7 @@
+<h1 class="mt-4">Upload</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Faça a transferencia em massa para o sistema atraves da planilha modelo:</li>
+</ol>
 <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <div class="file-upload">
   <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Adicionar arquivo</button>
@@ -14,4 +18,38 @@
       <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
     </div>
   </div>
+</div>
+
+<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
+  Ajuda
+  <i class="fa fa-question-circle"></i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Importação de dados em massa</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Essa aba serve para fazer a importação de dados em massa a partir de uma planilha CSV disponibilizada, basta preencher a planilha com os dados e informações corretas, fazer a importação e salvar
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Baixar planilha</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-12">
+  <input type="submit" value="Salvar" class="btn btn-success float-right">
+  </div>
+
 </div>

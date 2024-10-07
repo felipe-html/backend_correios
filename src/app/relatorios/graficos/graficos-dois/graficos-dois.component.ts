@@ -18,26 +18,25 @@ export class GraficosDoisComponent {
     exportEnabled: true,
     theme: "light2",
     title: {
-      text: "Frequency Response of Low Pass Filters"
+      text: "Requisição de patrimonios"
     },
     subtitles:[{
-      text: "X Axis scale is Logarithmic",
+      text: "Disponivel/Requisição",
       fontSize: 14
     }],
     axisX: {
       logarithmic: true,
-      title: "Frequency \u03C9(rad/s)",
+      title: "Frequencia (mes/s)",
       minimum: .01,
       suffix: "\u03C9\u2099",
       stripLines: [{
         value: 1,
-        label: "Cutoff Frequency",
+        label: "Frequencia de requisição",
         labelFontColor: "#808080",
         labelAlign: "near"
       }]
     },
     axisY: {
-      title: "Type 1 Magnitude (db)",
       lineThickness: 1,
       lineColor: "#6D78AD",
       tickColor: "#6D78AD",
@@ -45,7 +44,6 @@ export class GraficosDoisComponent {
       labelFontColor: "#6D78AD"
     },
     axisY2: {
-      title: "Type 2 Magnitude (db)",
       lineThickness: 1,
       lineColor: "#51CDA0",
       tickColor: "#51CDA0",
@@ -68,7 +66,7 @@ export class GraficosDoisComponent {
     },
     data: [{
       type: "line",
-      name: "Type 1 Filter",
+      name: "Requisição de patrimonio",
       showInLegend: true,
       yValueFormatString: "#,##0.00 db",
       xValueFormatString: "\u03C9 = #,##0.00#\u03C9\u2099",
@@ -76,7 +74,7 @@ export class GraficosDoisComponent {
     },
     {
       type: "line",
-      name: "Type 2 Filter",
+      name: "Patrimonio disponiveis",
       color: "#51CDA0",
       showInLegend: true,
       axisYType: "secondary",
