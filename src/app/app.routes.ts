@@ -16,6 +16,7 @@ import { LinhaComponent } from './home/graficos/linha/linha.component';
 import { GraficosComponent } from './relatorios/graficos/graficos.component';
 import { EntradaComponent } from './login/entrada/entrada.component';
 
+
 export const routes: Routes = [
     {path:'app-entrada', component: EntradaComponent},
     {path: 'home', component: HomeComponent},
