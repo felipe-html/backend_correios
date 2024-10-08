@@ -14,20 +14,18 @@ export class GraficoQuatroComponent {
   chartOptions = {
 	  animationEnabled: true,
 	  title:{
-		text: "Project Cost Breakdown"
+		text: "Distribuição do patrimônio"
 	  },
 	  data: [{
 		type: "doughnut",
 		yValueFormatString: "#,###.##'%'",
 		indexLabel: "{name}",
 		dataPoints: [
-		  { y: 28, name: "Labour" },
-		  { y: 10, name: "Legal" },
-		  { y: 20, name: "Production" },
-		  { y: 15, name: "License" },
-		  { y: 23, name: "Facilities" },
-		  { y: 17, name: "Taxes" },
-		  { y: 12, name: "Insurance" }
+		  { y: 28, name: "Nova entrada" },
+		  { y: 10, name: "Entrada por Compra" },
+		  { y: 20, name: "Transferência Interna " },
+		  { y: 15, name: "Transferência Externa" },
+		 
 		]
 	  }]
 	}	
