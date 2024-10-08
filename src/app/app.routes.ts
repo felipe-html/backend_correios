@@ -14,8 +14,10 @@ import { TransferenciaExternaComponent } from './patrimonio/transferencia/transf
 import { TransferenciaInternaComponent } from './patrimonio/transferencia/transferencia-interna/transferencia-interna.component';
 import { LinhaComponent } from './home/graficos/linha/linha.component';
 import { GraficosComponent } from './relatorios/graficos/graficos.component';
+import { EntradaComponent } from './login/entrada/entrada.component';
 
 export const routes: Routes = [
+    {path:'app-entrada', component: EntradaComponent},
     {path: 'home', component: HomeComponent},
     {path: 'gestores-form', component: GestoresFormComponent},
     {path:'app-listagem', component: ListagemComponent},

@@ -2,6 +2,18 @@
     <ol class="breadcrumb mb-4">
         <li class="breadcrumb-item active">Essa pagina traz uma lista de informações resumidas do site</li>
     </ol>
+    <div class="dropdown">
+        <a class="btn btn-primary dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Serie Historicas
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">2024</a>
+          <a class="dropdown-item" href="#">2023</a>
+          <a class="dropdown-item" href="#">2022</a>
+        </div>
+      </div>
+      <br><br>
     <div class="row">
         <div class="col-md-4 col-xl-3">
             <div class="card bg-c-blue order-card">
@@ -46,7 +58,7 @@
     <div class="row">
         <div class="col-xl-6">
             <div class="card mb-4">
-                <div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Gráfico de compras 2024</div>
+                <div class="card-header"><i class="fas fa-chart-bar mr-1"></i>Gráfico de uso 2024</div>
                 <div class="card-body">
                     
                     <app-torta></app-torta>         
@@ -64,30 +76,20 @@
         </div>
     </div>
     <div class="card mb-4">
-        <div class="card-header"><i class="fas fa-table mr-1"></i>DataTable Example</div>
+        <div class="card-header"><i class="fas fa-table mr-1"></i>Ultimo andamentos</div>
         <div class="card-body">
             <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Position</th>
-                            <th>Office</th>
-                            <th>Age</th>
-                            <th>Start date</th>
-                            <th>Salary</th>
+                            <th>Gestor</th>
+                            <th>Objeto</th>
+                            <th>Area</th>
+                            <th>Quantidade</th>
+                            <th>Data ultima atualizacao</th>
+                            <th>Valor</th>
                         </tr>
                     </thead>
-                    <tfoot>
-                        <tr>
-                            <th>Name</th>
-                            <th>Position</th>
-                            <th>Office</th>
-                            <th>Age</th>
-                            <th>Start date</th>
-                            <th>Salary</th>
-                        </tr>
-                    </tfoot>
                     <tbody>
                         <tr>
                             <td>Tiger Nixon</td>

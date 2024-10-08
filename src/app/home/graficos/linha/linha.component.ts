@@ -15,14 +15,14 @@ export class LinhaComponent {
   chartOptions = {
     animationEnabled: true,
     title: {
-        text: 'Estimativa de gastos',
+        text: 'Taxa de alocação',
     },
     axisY: {
-        title: 'Compras por periodo',
+        title: 'Requisições por periodo',
     },
     data: [{
         type: 'area',
-        name: 'Receita Disponivel',
+        name: 'Estoque Disponivel',
         showInLegend: true,
         legendMarkerType: 'square',
         color: 'rgba(40,175,101,0.6)',
@@ -56,7 +56,7 @@ export class LinhaComponent {
     },
     {
         type: 'area',
-        name: 'Gasto',
+        name: 'Requisição',
         showInLegend: true,
         legendMarkerType: 'square',
         color: 'rgba(0,75,141,0.7)',
