@@ -23,7 +23,7 @@ export class GraficoTresComponent {
     zoomEnabled: true,
     exportEnabled: true,
     title: {
-      text:"Bitcoin Closing Price"
+      text:"Compras mensais"
     },
     subtitles: [{
       text: "Loading Data...",
@@ -33,13 +33,13 @@ export class GraficoTresComponent {
       dockInsidePlotArea: true
     }],
     axisY: {
-      title: "Closing Price (in USD)",
-      prefix: "$"
+      title: "Gastos mensais (em R$)",
+      prefix: "R$"
     },
     data: [{
       type: "line",
       name: "Closing Price",
-      yValueFormatString: "$#,###.00",
+      yValueFormatString: "R$#,###.00",
       xValueType: "dateTime",
       dataPoints: this.dataPoints
     }]

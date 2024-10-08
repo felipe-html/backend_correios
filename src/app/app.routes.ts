@@ -15,25 +15,28 @@ import { TransferenciaInternaComponent } from './patrimonio/transferencia/transf
 import { LinhaComponent } from './home/graficos/linha/linha.component';
 import { GraficosComponent } from './relatorios/graficos/graficos.component';
 import { EntradaComponent } from './login/entrada/entrada.component';
+import { LayoutComponent } from './layout/layout.component';
 
 
 export const routes: Routes = [
     {path:'app-entrada', component: EntradaComponent},
-    {path: 'home', component: HomeComponent},
-    {path: 'gestores-form', component: GestoresFormComponent},
-    {path:'app-listagem', component: ListagemComponent},
-    {path:'app-upload-data', component: UploadDataComponent},
-    {path:'app-gestores-info/:id', component: GestoresInfoComponent},
-    {path:'app-nova-entrada', component: NovaEntradaComponent},
-    {path:'app-linha', component: LinhaComponent},
-    {path:'app-entrada-compra', component:EntradaCompraComponent},
-    {path:'app-outras-entrada', component:OutrasEntradaComponent},
-    {path:'app-lista-entradas', component:ListaEntradasComponent},
-    {path:'app-historico-patrimonio', component:HistoricoPatrimonioComponent},
-    {path:'app-lista-transferencia', component: ListaTransferenciaComponent},
-    {path:'app-transferencia-externa', component: TransferenciaExternaComponent},
-    {path:'app-transferencia-interna', component: TransferenciaInternaComponent},
-    {path:'app-graficos', component:GraficosComponent},
+    {path:'', component:LayoutComponent, children:[
+        {path: 'gestores-form', component: GestoresFormComponent},
+        {path: 'home', component: HomeComponent},
+        {path:'app-listagem', component: ListagemComponent},
+        {path:'app-upload-data', component: UploadDataComponent},
+        {path:'app-gestores-info/:id', component: GestoresInfoComponent},
+        {path:'app-nova-entrada', component: NovaEntradaComponent},
+        {path:'app-linha', component: LinhaComponent},
+        {path:'app-entrada-compra', component:EntradaCompraComponent},
+        {path:'app-outras-entrada', component:OutrasEntradaComponent},
+        {path:'app-lista-entradas', component:ListaEntradasComponent},
+        {path:'app-historico-patrimonio', component:HistoricoPatrimonioComponent},
+        {path:'app-lista-transferencia', component: ListaTransferenciaComponent},
+        {path:'app-transferencia-externa', component: TransferenciaExternaComponent},
+        {path:'app-transferencia-interna', component: TransferenciaInternaComponent},
+        {path:'app-graficos', component:GraficosComponent},
+    ]},
 
 
 

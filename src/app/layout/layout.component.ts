@@ -1,24 +1,21 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
+import { TemplateModule } from "../template/template.module";
+import { NavbarComponent } from "../template/navbar/navbar.component";
 import { RouterOutlet } from '@angular/router';
-import { TemplateModule } from "./template/template.module";
-import { HomeComponent } from "./home/home.component";
-import { GestoresFormComponent } from './gestores/gestores-form/gestores-form.component';
-import { ClientesService } from './clientes.service';
-import { HttpClientJsonpModule } from '@angular/common/http';
+import { EntradaComponent } from '../login/entrada/entrada.component';
 import { FormsModule } from '@angular/forms';
-
-import jQuery from 'jquery';
-import { EntradaComponent } from "./login/entrada/entrada.component";
+import { HttpClientJsonpModule } from '@angular/common/http';
+import { GestoresFormComponent } from '../gestores/gestores-form/gestores-form.component';
+import { HomeComponent } from '../home/home.component';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-layout',
   standalone: true,
   imports: [RouterOutlet, TemplateModule, HttpClientJsonpModule,EntradaComponent, FormsModule, HomeComponent, GestoresFormComponent, EntradaComponent],
-  providers:[ClientesService],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']  // Corrected from styleUrl to styleUrls
+  templateUrl: './layout.component.html',
+  styleUrl: './layout.component.css'
 })
-export class AppComponent implements AfterViewInit {
+export class LayoutComponent implements AfterViewInit {
   title = 'correios-frontend';
 
   ngAfterViewInit() {

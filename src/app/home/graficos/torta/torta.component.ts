@@ -25,7 +25,7 @@ export class TortaComponent {
 		  { y: 14.1, name: "Ferramentas" },
 		  { y: 28.2, name: "Peças reposição" },
 		  { y: 14.4, name: "Mobiliario" },
-		  { y: 43.3, name: "Serviços" }
+		  { y: 43.3, name: "Equipamentos" }
 		]
 	  }]
 	}	

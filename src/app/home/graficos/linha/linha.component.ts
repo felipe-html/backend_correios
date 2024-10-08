@@ -28,7 +28,7 @@ export class LinhaComponent {
         color: 'rgba(40,175,101,0.6)',
         markerSize: 0,
         dataPoints: [
-            { x: new Date(2013, 0, 1, 0, 0), y: 7 },
+            {label: "Janeiro", x: new Date(2013, 0, 1, 0, 0), y: 7 },
             { x: new Date(2013, 0, 1, 1, 0), y: 8 },
             { x: new Date(2013, 0, 1, 2, 0), y: 5 },
             { x: new Date(2013, 0, 1, 3, 0), y: 7 },
