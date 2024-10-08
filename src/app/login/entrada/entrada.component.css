@@ -23,7 +23,7 @@ body {
     @media (max-width: 991px) {
       .intro-section {
         padding-left: 50px;
-        padding-rigth: 50px; } }
+      } }
     @media (max-width: 767px) {
       .intro-section {
         padding: 28px; } }
@@ -142,7 +142,7 @@ body {
     margin-bottom: 23px; }
     .social-login-title::before, .social-login-title::after {
       content: "";
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#f4f4f4));
+      background-image:(linear, left top, left bottom, (#f4f4f4), (#f4f4f4));
       background-image: linear-gradient(#f4f4f4, #f4f4f4);
       -webkit-box-flex: 1;
               flex-grow: 1;
