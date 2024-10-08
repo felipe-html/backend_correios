@@ -3,43 +3,54 @@
     <li class="breadcrumb-item active">Essa pagina é feita para controlar as transferencias interna ao orgão</li>
 </ol>
 
+<div class="container-fluid px-1 py-5 mx-auto">
+  <div class="row d-flex justify-content-center">
+      <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+          <div class="card">
+              <form class="form-card" onsubmit="event.preventDefault()">
+                  <div class="row justify-content-between text-left">
+                      <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Nome Patrimonio<span class="text-danger"> *</span></label> <input type="text" id="fname" name="fname" placeholder="" onblur="validate(1)"> </div>
+                      <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Numero Patrimonio<span class="text-danger"> *</span></label> <input type="text" id="lname" name="lname" placeholder="" onblur="validate(2)"> </div>
+                  </div>
+                  <div class="row justify-content-between text-left">
+                      <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Data de Transferencia<span class="text-danger"> *</span></label> <input type="date" id="email" name="email" placeholder="" onblur="validate(3)" required> </div>
+                      <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Local de Transferencia<span class="text-danger"> *</span></label> <input type="text" id="mob" name="mob" placeholder="" onblur="validate(4)"> </div>
+                  </div>
+                  <div class="row justify-content-between text-left">
+                      <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Gestor Responsavel<span class="text-danger"> *</span></label> <input type="text" id="job" name="job" placeholder="" onblur="validate(5)"> </div>
+                      <div class="form-group col-sm-6 flex-column d-flex"> 
+                        <br>
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Situação Patrimonio
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button">Novo</button>
+                            <button class="dropdown-item" type="button">Usado</button>
+                            <button class="dropdown-item" type="button">Manutenção</button>
+                            <button class="dropdown-item" type="button">Baixa/Descarte</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-<form class="row g-3">
-    <div class="col-md-6">
-      <label for="inputEmail4" class="form-label">Objeto</label>
-      <input type="text" class="form-control" id="inputEmail4">
-    </div>
-    <div class="col-md-6">
-      <label for="inputPassword4" class="form-label">Número Patrimonio</label>
-      <input type="text" class="form-control" id="inputPassword4">
-    </div>
-    <div class="col-md-6">
-      <label for="inputAddress" class="form-label">Data de Transferencia</label>
-      <input type="date" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="col-md-6">
-      <label for="inputAddress2" class="form-label">Local de Transferencia</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
-    <div class="col-md-6">
-      <label for="inputCity" class="form-label">Gestor Responsavel</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="col-md-4">
-      <label for="inputState" class="form-label">Status Patrimonio</label><br>
-      <select id="inputState" class="form-select">
-        <option selected>Selecione</option>
-        <option>Novo</option>
-        <option>Usado</option>
-        <option>Manutenção</option>
-        <option>Baixa/descarte</option>
-      </select>
-    </div>
-    <div class="col-md-4">
-        <label for="formFile" class="form-label">Anexo de Documentos</label><br>
-        <input class="form-control" type="file" id="formFile">
-      </div><br><br><br><br><br>    
-    <div class="col-12">
-      <button type="submit" class="btn btn-success">Salvar</button>
-    </div>
-  </form>
+                  
+                  <div class="input-group">
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+                        <label class="custom-file-label" for="inputGroupFile04">Documentos a anexar</label>
+                      </div>
+                      <div class="input-group-append">
+                      </div>
+                    </div>
+                  <div class="row justify-content-between text-left">
+                      <div class="form-group col-12 flex-column d-flex"> <label class="form-control-label px-3">Informações adicionais/pertinentes</label> <input type="text" id="ans" name="ans" placeholder="" onblur="validate(6)"> </div>
+                  </div>
+                  <div class="row justify-content-end">
+                      <div class="form-group col-sm-6"> <button type="submit" class="btn-block btn-success"><i class="fa fa-save"></i>Cadastrar Patrimonio</button> </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>

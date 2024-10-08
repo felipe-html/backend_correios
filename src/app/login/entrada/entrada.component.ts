@@ -18,4 +18,9 @@ export class EntradaComponent {
     
   }
 
+  onRegister(){
+    this.router.navigate(['/app-registro'])
+
+  }
+
 }

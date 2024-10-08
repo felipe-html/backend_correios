@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-registro',
@@ -7,6 +8,14 @@ import { Component } from '@angular/core';
   templateUrl: './registro.component.html',
   styleUrl: './registro.component.css'
 })
-export class RegistroComponent {
+export class RegistroComponent{
+
+  onSubmit(){
+    this.router.navigate(['/home'])
+  }
+
+  constructor(private router:Router){
+    
+  }
 
 }

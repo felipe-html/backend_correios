@@ -16,10 +16,13 @@ import { LinhaComponent } from './home/graficos/linha/linha.component';
 import { GraficosComponent } from './relatorios/graficos/graficos.component';
 import { EntradaComponent } from './login/entrada/entrada.component';
 import { LayoutComponent } from './layout/layout.component';
+import { RegistroComponent } from './login/registro/registro.component';
 
 
 export const routes: Routes = [
     {path:'app-entrada', component: EntradaComponent},
+    {path:'app-registro', component: RegistroComponent},
+
     {path:'', component:LayoutComponent, children:[
         {path: 'gestores-form', component: GestoresFormComponent},
         {path: 'home', component: HomeComponent},
